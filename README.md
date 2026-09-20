@@ -18,4 +18,4 @@
 
 ## 🛠 Использованный стек
 - **HTML5 & CSS3:** Адаптивная верстка, Flexbox, CSS Grid.
-- **JavaScript (Vanilla):** Работа с DOM, событиями, массивами и объектами.
+- **JavaScript (Vanilla):**
