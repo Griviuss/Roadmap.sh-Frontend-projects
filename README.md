@@ -1,6 +1,6 @@
 # Front-end Projects from Roadmap / Practice
 
-Front-end projects built following the <a href="roadmap.sh">roadmap.sh</a> front-end developer path.
+Front-end projects built following the <a href="https://roadmap.sh">roadmap.sh</a> front-end developer path.
 
 ---
 
