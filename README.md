@@ -4,9 +4,13 @@ Front-end projects built following the <a href="https://roadmap.sh">roadmap.sh</
 
 ---
 
-## 📂 Список проектов (Projects List)
+## 📂 Projects List at github
 
-* **[Single-Page CV](https://roadmap.sh/projects/single-page-cv)**
+* **[Single-Page CV](Frontend%20Projects/Single-Page-CV/index.html)**
+
+---
+## Project List at roadmap.sh
+* **[Single-Page CV](https://roadmap.sh/projects/single-page-cv/solutions?u=6a8c4c22bff53a9700247f4c)**
 
 ---
 
