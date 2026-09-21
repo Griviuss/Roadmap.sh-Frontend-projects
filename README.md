@@ -6,7 +6,7 @@ Front-end projects built following the <a href="https://roadmap.sh">roadmap.sh</
 
 ## 📂 Список проектов (Projects List)
 
-* **[Single-Page CV](.Frontend%20Projects/01-CV/index.html)**
+* **[Single-Page CV](https://roadmap.sh/projects/single-page-cv)**
 
 ---
 
