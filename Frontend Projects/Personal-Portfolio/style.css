@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.logo-icon {
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
+  background-color: #000;
+}
+
+.nav {
+  display: flex;
+  gap: 4px;
+}
+
+.nav a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 0;
+  border-bottom: 2px solid #000;
+}
+
+.hero h1 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.hero p {
+  color: #666;
+  font-size: 14px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr 1.4fr;
+  border-bottom: 2px solid #000;
+}
+
+.projects-col {
+  border-right: 2px solid #000;
+}
+
+.education-col h2 {
+  padding-bottom: 15px;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.projects-col h2, 
+.experience-col h2 {
+  font-size: 22px;
+  padding: 15px;
+  font-weight: normal;
+}
+
+.project-item {
+  padding: 12px 15px;
+  border-top: 2px solid #000;
+  font-size: 14px;
+}
+
+.experience-col {
+  border-right: 2px solid #000;
+}
+
+.exp-block {
+  padding: 15px;
+}
+
+.exp-block:not(:last-child) {
+  border-bottom: 2px solid #000;
+}
+
+.exp-block h3 {
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.exp-block p {
+  font-size: 13px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.exp-block a {
+  font-size: 13px;
+}
+
+.education-col {
+  padding: 15px;
+}
+
+.education-col p {
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.courses-title {
+  margin-top: 20px;
+}
+
+.courses-list {
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.courses-list li {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.reviews {
+  padding: 20px 15px;
+}
+
+.reviews h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  font-weight: normal;
+}
+
+.reviews-grid {
+  display: flex;
+  gap: 15px;
+}
+
+.reviews-card {
+  flex: 1;
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.reviews-card .author,
+.reviews-card .title {
+  color: #888;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+
+  .container {
+    max-width: 100%;
+    border: 2px solid #000;
+  }
+
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 15px 0 15px;
+  }
+
+  .logo {
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+  }
+
+  .hero h1, 
+  .projects-col h2, 
+  .experience-col h2, 
+  .education-col h2, 
+  .reviews h2 {
+    text-align: center;
+  }
+
+  .hero{
+    padding: 20px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .main-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-col, .experience-col {
+    border-right: none;
+    border-bottom: 2px solid #000;
+  }
+
+  .project-item {
+    background-color: #ededed;
+    text-align: center;
+  }
+
+  .exp-block {
+    background-color: #ededed;
+    border-top: 2px solid #000;
+  }
+
+  .exp-block:not(:last-child) {
+    border-bottom: none;
+  }
+
+  .exp-block h3 {
+    font-weight: normal;
+  }
+
+
+  .reviews-grid {
+    flex-direction: column;
+  }
+
+  .reviews-card:not(:first-child) {
+    display: none;
+  }
+
+  .reviews{
+    padding: 20px 15px 0px 15px;
+  }
+
+  .footer {
+    font-size: 20px;
+  }
+}
