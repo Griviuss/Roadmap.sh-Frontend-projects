@@ -6,14 +6,11 @@ Front-end projects built following the <a href="https://roadmap.sh">roadmap.sh</
 
 ## 📂 Projects List at github
 
-* **[Single-Page CV](Frontend%20Projects/Single-Page-CV/index.html)**
-* **[Basic-HTML-Website](Frontend%20Projects/Basic-HTML-Website)
----
-## Project List at roadmap.sh
-* **[Single-Page CV](https://roadmap.sh/projects/single-page-cv/solutions?u=6a8c4c22bff53a9700247f4c)**
-* **[Basic-HTML-Website](https://roadmap.sh/projects/basic-html-website)
+* **[Single-Page CV](Frontend%20Projects/Single-Page-CV/index.html) [roadmapsh](https://roadmap.sh/projects/single-page-cv)**
+* **[Basic-HTML-Website](Frontend%20Projects/Basic-HTML-Website) [roadmapsh](https://roadmap.sh/projects/basic-html-website)**
+* **[Personal-Portfolio](Frontend%20Projects/Basic-HTML-Website/Personal-Portfolio) [roadmapsh](https://roadmap.sh/projects/portfolio-website)**
 ---
 
-## 🛠 Использованный стек
-- **HTML5 & CSS3:** Адаптивная верстка, Flexbox, CSS Grid.
+## 🛠 Stack
+- **HTML5 & CSS3:**.
 - **JavaScript (Vanilla):**
