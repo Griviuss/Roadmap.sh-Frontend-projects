@@ -9,6 +9,7 @@ Front-end projects built following the <a href="https://roadmap.sh">roadmap.sh</
 * **[Single-Page CV](Frontend%20Projects/Single-Page-CV/index.html)  /  [roadmapsh](https://roadmap.sh/projects/single-page-cv)**
 * **[Basic-HTML-Website](Frontend%20Projects/Basic-HTML-Website)  /  [roadmapsh](https://roadmap.sh/projects/basic-html-website)**
 * **[Personal-Portfolio](Frontend%20Projects/Basic-HTML-Website/Personal-Portfolio)  /  [roadmapsh](https://roadmap.sh/projects/portfolio-website)**
+* **[Changelog-Component](Frontend%20Projects/Changelog-Component)  /  [roadmapsh](https://roadmap.sh/projects/changelog-component)**
 ---
 
 ## 🛠 Stack
